@@ -1,0 +1,19 @@
+# Backend
+backend/target/
+*.class
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Uploads (contenu genere, pas du code)
+backend/uploads/photos/*
+backend/uploads/videos/*
+!backend/uploads/photos/.gitkeep
+!backend/uploads/videos/.gitkeep
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
